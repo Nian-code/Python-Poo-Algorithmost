@@ -39,6 +39,7 @@ class empleado():
     @fecha_dotacion.setter
     def set_fecha_dotacion(self, fecha_dotacion):
         self.__fecha_dotacion = fecha_dotacion
+        print(f'Se ha ectualizado la fecha de dotacion de {self.__nombre}') 
 
 class empleado_directo(empleado):
     def __init__(self, nombre, id, fecha_dotacion):
